@@ -43,6 +43,14 @@ const questions = [
         name: "usage"
     },
 
+    {
+       type: "list",
+       message: "What license is used for this project?",
+       name: "license",
+       choices:['Apache license','Mozilla','MIT','N/A'],
+
+    } ,
+
 
 ];
 
@@ -59,3 +67,5 @@ function init() {inquirer.prompt(questions).then((answer) =>  {
 
 // Function call to initialize app
 init();
+
+
