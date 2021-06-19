@@ -31,9 +31,16 @@ function generateMarkdown(data) {
   ## Testing
   ${data.test}
 
+  ## License
+  ${data.license}
+
  ## Questions
  Please contact project owner
  Check out [https://github.com/${data.github}][github] for more fun.
+
+ ## Github
+ Owners github
+ ${data.github}
 
 
 
