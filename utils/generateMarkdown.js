@@ -14,6 +14,40 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) { 
   console.log(data.title)
   return `# ${data.title}
+ 
+
+  ## Description
+  ${data.description}
+  
+  ## Installation
+  ${data.installation}
+  
+  ## Usage
+  ${data.usage}
+  
+  ##  Contributions
+  ${data.contributors}
+
+  ## Testing
+  ${data.test}
+
+ ## Questions
+ Please contact project owner
+ Check out [https://github.com/${data.github}][github] for more fun.
+
+
+
+
+
+
+  ## Helpful Links
+  * [Agile Methodology](https://en.wikipedia.org/wiki/Agile_software_development)
+  * [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
+  * [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
+  
+  - - -
+  © Rohan 2021
+
 `;
 }
 
