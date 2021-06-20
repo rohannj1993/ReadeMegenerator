@@ -1,6 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) { 
+  if (license==='None'){
+    return ``
+  }
+  return `![License](https://img.shields.io/badge/License-${license}-blue.svg)`
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -14,7 +19,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) { 
   console.log(data.title)
   return `# ${data.title}
- 
+  
+  ${renderLicenseBadge(data.license)}
 
   ## Description
   ${data.description}
@@ -40,7 +46,7 @@ function generateMarkdown(data) {
 
  ## Github
  Owners github
- ${data.github}
+ ${data.githubgit}
 
 
 
@@ -53,7 +59,7 @@ function generateMarkdown(data) {
   * [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
   
   - - -
-  © Rohan 2021
+ 
 
 `;
 }
