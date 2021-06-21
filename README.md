@@ -3,22 +3,22 @@
   ![License](https://img.shields.io/badge/License-Apache -blue.svg)
 
   ## Description
-  idk
+ 
   
   ## Installation
-  do not have to install
+ 
   
   ## Usage
-  i do not know
+ 
   
   ##  Contributions
-  multiple people
+ 
 
   ## Testing
-  what
+
 
   ## License
-  Apache 
+  
 
  ## Questions
  Please contact project owner
